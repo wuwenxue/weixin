@@ -1,0 +1,34 @@
+dataSource.driverClass=com.mysql.jdbc.Driver
+dataSource.jdbcUrl=jdbc:mysql://192.168.1.170:3306/dckj?useUnicode=true&characterEncoding=UTF-8
+dataSource.user=root
+dataSource.password=root
+
+
+
+#build
+#tikibox_wx_app_id=wx0072407de234986b
+#tikibox_wx_app_secret=0ed01a362abd7ee5dd082c431d2577c4
+
+#tikibox test
+tikibox_wx_app_id=wxe8f4506c256107e9
+tikibox_wx_app_secret=55dcf9ac9f7279d68bdb6011c81fc4e1
+
+#jiayou
+#jiayou_wx_app_id=wx8790db2797e62aed
+#jiayou_wx_app_secret=020f541c3fb621c434b05e24427171f7
+
+#jiayou test
+#jiayou_wx_app_id=wxab8a7244ce146e14
+#jiayou_wx_app_secret=9dfd62ac83f84465f049c9b53c47a03a
+
+#dingchang
+jiayou_wx_app_id=wxe096abe2034281f9
+jiayou_wx_app_secret=0a83507f852e3afd7b946d3d435420cc
+
+rmiMemberService=rmi://192.168.1.111:15005/rmiMemberService
+rmiSecurityService=rmi://192.168.1.170:15013/rmiSecurityService
+cas_root = http://192.168.1.110:8080/cas/
+server_name = weixin_server
+server_url = http://192.168.1.188:8080/weixin_server/
+
+IMAGEPATH=C:/tools/dckj/upload/
